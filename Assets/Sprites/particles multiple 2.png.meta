@@ -1,0 +1,958 @@
+fileFormatVersion: 2
+guid: bb8b8ddcb6476b546ab037aa3c502559
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4776716418863836424
+    second: particles multiple 2_0
+  - first:
+      213: 5371899172138831170
+    second: particles multiple 2_1
+  - first:
+      213: 4010448084195113501
+    second: particles multiple 2_2
+  - first:
+      213: -1569052127017262482
+    second: particles multiple 2_3
+  - first:
+      213: -5928526561639451004
+    second: particles multiple 2_4
+  - first:
+      213: 6579815457519856049
+    second: particles multiple 2_5
+  - first:
+      213: -5019414748627797501
+    second: particles multiple 2_6
+  - first:
+      213: -64856476214533408
+    second: particles multiple 2_7
+  - first:
+      213: -909872078206383063
+    second: particles multiple 2_8
+  - first:
+      213: -1498542632249963107
+    second: particles multiple 2_9
+  - first:
+      213: 8971743985379044032
+    second: particles multiple 2_10
+  - first:
+      213: -1591331096613786736
+    second: particles multiple 2_11
+  - first:
+      213: 308649742137616808
+    second: particles multiple 2_12
+  - first:
+      213: 8702501564784195043
+    second: particles multiple 2_13
+  - first:
+      213: -5323894633954980276
+    second: particles multiple 2_14
+  - first:
+      213: -8233291799925213831
+    second: particles multiple 2_15
+  - first:
+      213: 2380076831591708945
+    second: particles multiple 2_16
+  - first:
+      213: 1126880824994870623
+    second: particles multiple 2_17
+  - first:
+      213: -4817976647361287568
+    second: particles multiple 2_18
+  - first:
+      213: 8547904339766578841
+    second: particles multiple 2_19
+  - first:
+      213: -3258308271812383384
+    second: particles multiple 2_20
+  - first:
+      213: 8958450216824934362
+    second: particles multiple 2_21
+  - first:
+      213: -7532503868295730692
+    second: particles multiple 2_22
+  - first:
+      213: -8789904270913813865
+    second: particles multiple 2_23
+  - first:
+      213: -2076956444503076886
+    second: particles multiple 2_24
+  - first:
+      213: -2749895012646491738
+    second: particles multiple 2_25
+  - first:
+      213: 7789572583018343498
+    second: particles multiple 2_26
+  - first:
+      213: -189195095867468917
+    second: particles multiple 2_27
+  - first:
+      213: -8348058900585736736
+    second: particles multiple 2_28
+  - first:
+      213: 7155565328004850500
+    second: particles multiple 2_29
+  - first:
+      213: 3577049202219121753
+    second: particles multiple 2_30
+  - first:
+      213: -1248858888813446352
+    second: particles multiple 2_31
+  - first:
+      213: 2743943459347914890
+    second: particles multiple 2_32
+  - first:
+      213: 8000202056494076136
+    second: particles multiple 2_33
+  - first:
+      213: 6622301215172461240
+    second: particles multiple 2_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: particles multiple 2_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 828
+        width: 270
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80da72b564e4a4240800000000000000
+      internalID: 4776716418863836424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 868
+        width: 210
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dcc84e5d1dc8a40800000000000000
+      internalID: 5371899172138831170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_2
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 869
+        width: 212
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a7898c849f7a730800000000000000
+      internalID: 4010448084195113501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_3
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 888
+        width: 195
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62a017576b993ae0800000000000000
+      internalID: -1569052127017262482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_4
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 894
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486330cb084a9bda0800000000000000
+      internalID: -5928526561639451004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_5
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 752
+        width: 344
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b968191c43305b50800000000000000
+      internalID: 6579815457519856049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_6
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 853
+        width: 113
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30afeaf41e4775ab0800000000000000
+      internalID: -5019414748627797501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_7
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 847
+        width: 165
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e269d5e065991ff0800000000000000
+      internalID: -64856476214533408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_8
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 459
+        width: 179
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c46736a2c7f53f0800000000000000
+      internalID: -909872078206383063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_9
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 275
+        width: 185
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d46f36a6b143be0800000000000000
+      internalID: -1498542632249963107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_10
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 190
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cae340de99028c70800000000000000
+      internalID: 8971743985379044032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_11
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 228
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b6d428cc47ae9e0800000000000000
+      internalID: -1591331096613786736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_12
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 319
+        width: 158
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9e0202e4b884400800000000000000
+      internalID: 308649742137616808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_13
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 208
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e53e3ab01f75c870800000000000000
+      internalID: 8702501564784195043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_14
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 199
+        width: 75
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e4181a90abd16b0800000000000000
+      internalID: -5323894633954980276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_15
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 137
+        width: 84
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9753255dab87dbd80800000000000000
+      internalID: -8233291799925213831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_16
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 152
+        width: 162
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1193925a44bb70120800000000000000
+      internalID: 2380076831591708945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_17
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 258
+        width: 165
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55b40ec32c73af00800000000000000
+      internalID: 1126880824994870623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_18
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 456
+        width: 125
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a27e514cb132db0800000000000000
+      internalID: -4817976647361287568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_19
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 541
+        width: 333
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e8ec155b140a670800000000000000
+      internalID: 8547904339766578841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_20
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 644
+        width: 248
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86de7e9d3e928c2d0800000000000000
+      internalID: -3258308271812383384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_21
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 399
+        width: 94
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf0fdf120fc25c70800000000000000
+      internalID: 8958450216824934362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_22
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 412
+        width: 175
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf92af404ab277790800000000000000
+      internalID: -7532503868295730692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 497
+        width: 103
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7924e72f2acf30680800000000000000
+      internalID: -8789904270913813865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_24
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 397
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef8f6f2e1b2d23e0800000000000000
+      internalID: -2076956444503076886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_25
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 400
+        width: 238
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a966993e0966d9d0800000000000000
+      internalID: -2749895012646491738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_26
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 513
+        width: 140
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c2eea4efe1a1c60800000000000000
+      internalID: 7789572583018343498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 584
+        width: 289
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83d29d0018df5df0800000000000000
+      internalID: -189195095867468917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_28
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 20
+        width: 286
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e59c8ae8acb52c80800000000000000
+      internalID: -8348058900585736736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_29
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 180
+        width: 329
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443a4d601ccad4360800000000000000
+      internalID: 7155565328004850500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 201
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c7d522c4b34a130800000000000000
+      internalID: 3577049202219121753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_31
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 53
+        width: 188
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b7fa515792baee0800000000000000
+      internalID: -1248858888813446352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_32
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 8
+        width: 308
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80603ac902741620800000000000000
+      internalID: 2743943459347914890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_33
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 9
+        width: 411
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0ddac226d660f60800000000000000
+      internalID: 8000202056494076136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particles multiple 2_34
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 445
+        width: 344
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b20ef56ed327eb50800000000000000
+      internalID: 6622301215172461240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

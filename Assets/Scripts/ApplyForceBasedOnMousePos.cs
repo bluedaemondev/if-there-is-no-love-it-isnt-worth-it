@@ -7,6 +7,7 @@ public class ApplyForceBasedOnMousePos : MonoBehaviour
 {
     private Rigidbody2D rbObject;
     public float forceToApply = 10f;
+    public float minDistanceToInteractMouse = 10;
     //public float maxForce 
 
     private Vector2 mousePosition;
@@ -27,8 +28,10 @@ public class ApplyForceBasedOnMousePos : MonoBehaviour
         Vector2 force = mousePosition - (Vector2)transform.position;
         force = force.normalized * forceToApply;
 
-        print("Force " + force +"  ||   Mag : "+force.magnitude);
+        Debug.DrawRay(transform.position, mousePosition, Color.red);
+        //print("Force " + force +"  ||   Mag : "+force.magnitude);
 
+        if(Vector2.Distance(transform.position, mousePosition) <= minDistanceToInteractMouse)
         rbObject.AddForce(-force * Time.deltaTime, ForceMode2D.Impulse);
 
         //rbObject.velocity.magnitude > 

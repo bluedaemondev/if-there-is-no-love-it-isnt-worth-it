@@ -21,6 +21,13 @@ public class HealthScript : MonoBehaviour
     {
         imgLife.color = colorLife;
     }
+    public void ResetLife()
+    {
+        currentLifeAlpha = 0;
+        imgLife.color = new Color(imgLife.color.r, imgLife.color.g, imgLife.color.b, currentLifeAlpha / 100);
+
+
+    }
     public void GetDamage(float speedCurrent)
     {
         //print(speedCurrent);

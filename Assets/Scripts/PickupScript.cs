@@ -18,8 +18,10 @@ public class PickupScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == playerLayer) // como dicen los que saben, 
+        if (collision.gameObject.layer != playerLayer) // como dicen los que saben, 
             return;                                    //si anda, no se toca
+
+        collision.GetComponent<HealthScript>().ResetLife();
 
         print("llamado");
         camSpawned = Instantiate(prefabCameraToSpawn, transform.position, Quaternion.identity);
@@ -27,11 +29,13 @@ public class PickupScript : MonoBehaviour
         FindObjectOfType<CamerasManager>()
             .SetCamera(camSpawned.GetComponent<CinemachineVirtualCamera>());
 
-        StartCoroutine(PrepairFallingObjects());
 
+        StartCoroutine(PrepairFallingObjects());
+        
         if (playerCinematicaContainer != null) // box collider para que no se me caiga para cualquier lado
             playerCinematicaContainer.SetActive(true);
 
+        
         animator.SetTrigger("pickedUp");
 
 

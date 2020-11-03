@@ -12,6 +12,8 @@ public class NarrativeTextDialog : MonoBehaviour
     
     private float timeStringConstruction = 0f;
     private TextMeshProUGUI textObject;
+    public bool resetScene;
+
 
     // Start is called before the first frame update
     void Start()
@@ -31,9 +33,13 @@ public class NarrativeTextDialog : MonoBehaviour
         {
             textObject.text = dialogs[++this.currentIdx];
         }
-        else if (Input.GetMouseButtonDown(0))
+        else if (Input.GetMouseButtonDown(0) && resetScene )
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        else if (!resetScene)
+        {
+            GameObject.FindGameObjectWithTag("NarrativePanel").SetActive(false);
         }
 
     }

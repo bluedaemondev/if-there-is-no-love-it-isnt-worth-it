@@ -41,6 +41,7 @@ public class CamerasManager : MonoBehaviour
     {
         if (lastCam != currentCam)
         {
+            print("debug");
             Destroy(currentCam.gameObject, afterTime);
             currentCam = lastCam;
 

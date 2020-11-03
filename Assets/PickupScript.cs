@@ -20,8 +20,11 @@ public class PickupScript : MonoBehaviour
         print("llamado");
         camSpawned = Instantiate(prefabCameraToSpawn, transform.position, Quaternion.identity);
         camSpawned.GetComponent<CinemachineVirtualCamera>().Follow = transform;
+        FindObjectOfType<CamerasManager>()
+            .SetCamera(camSpawned.GetComponent<CinemachineVirtualCamera>());
 
         animator.SetTrigger("pickedUp"); 
+
         // importante que este abajo porque se cargan cosas de aca en el state enter
     }
 

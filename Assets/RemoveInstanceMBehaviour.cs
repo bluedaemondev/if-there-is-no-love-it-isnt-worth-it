@@ -2,23 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AfterPickupMBehaviour : StateMachineBehaviour
+public class RemoveInstanceMBehaviour : StateMachineBehaviour
 {
+    public GameObject toInstancePrefab;
     ApplyForceBasedOnMousePos playerMov;
     HealthScript hScript;
-
-    CamerasManager manager;
-
-    public GameObject cam;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        Instantiate(toInstancePrefab, animator.transform.position, Quaternion.identity);
+        FindObjectOfType<CamerasManager>().DestroyCurrentCamera(0);
+
         playerMov = GameObject.FindObjectOfType<ApplyForceBasedOnMousePos>();
         hScript = GameObject.FindObjectOfType<HealthScript>();
-        
-        playerMov.enabled = hScript.enabled = false;
 
+        playerMov.enabled = hScript.enabled = true;
+
+        Destroy(animator.gameObject, 0.1f);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -30,8 +31,7 @@ public class AfterPickupMBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
-    //    //manager.DestroyCurrentCamera(0.3f);
-    //    //animator.StopPlayback();
+    //    
     //}
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

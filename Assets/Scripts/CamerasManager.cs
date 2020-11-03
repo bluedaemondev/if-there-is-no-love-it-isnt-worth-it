@@ -5,14 +5,22 @@ using UnityEngine;
 
 public class CamerasManager : MonoBehaviour
 {
+    public static CamerasManager instance { get; private set; }
+
     public CinemachineVirtualCamera currentCam;
 
     public CinemachineVirtualCamera lastCam;
 
+    public CameraShake shakeVisible;
+
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
+
         currentCam = GameObject.FindObjectOfType<CinemachineVirtualCamera>();
+        shakeVisible = GameObject.FindObjectOfType<CameraShake>(); // ojo aca
+
         lastCam = currentCam;
     }
 
@@ -20,6 +28,13 @@ public class CamerasManager : MonoBehaviour
     {
         lastCam = currentCam;
         currentCam = newCam;
+
+        shakeVisible = currentCam.GetComponent<CameraShake>();
+    }
+
+    public static void ShakeCameraNormal(float intensity, float time)
+    {
+        instance.currentCam.GetComponent<CameraShake>().ShakeCameraNormal(intensity, time);
     }
 
     public void DestroyCurrentCamera(float afterTime)
@@ -28,7 +43,11 @@ public class CamerasManager : MonoBehaviour
         {
             Destroy(currentCam.gameObject, afterTime);
             currentCam = lastCam;
+
+            shakeVisible = currentCam.GetComponent<CameraShake>();
         }
+        else
+            print("No puedo eliminar la unica camara, gil de goma");
     }
 
 }

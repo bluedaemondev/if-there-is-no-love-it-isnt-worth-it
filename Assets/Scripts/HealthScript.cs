@@ -26,7 +26,7 @@ public class HealthScript : MonoBehaviour
             print("ay!");
             currentLifeAlpha += Mathf.Clamp(speedCurrent, 0, 90);
             imgLife.color = new Color(imgLife.color.r, imgLife.color.g, imgLife.color.b, currentLifeAlpha / 100);
-
+            CamerasManager.ShakeCameraNormal(5f, .1f);
         }
         //else
         //{

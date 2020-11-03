@@ -10,6 +10,10 @@ public class HealthScript : MonoBehaviour
     public float minVelocityToGetHit = 14f;
 
     public Color colorLife;
+
+    [Header("opcional para el jugador")]
+    public GameObject deadScreenGO;
+
     //magnitud hasta 18 tira el mouse
 
     // Start is called before the first frame update
@@ -23,7 +27,7 @@ public class HealthScript : MonoBehaviour
         if (speedCurrent >= minVelocityToGetHit)
         {
             //me pego
-            print("ay!");
+            print("ay! "+ Mathf.Clamp(speedCurrent, 0, 90));
             currentLifeAlpha += Mathf.Clamp(speedCurrent, 0, 90);
             imgLife.color = new Color(imgLife.color.r, imgLife.color.g, imgLife.color.b, currentLifeAlpha / 100);
             CamerasManager.ShakeCameraNormal(5f, .1f);
@@ -35,7 +39,12 @@ public class HealthScript : MonoBehaviour
 
         if (currentLifeAlpha >= 100)
         {
+            //dead
             imgLife.color = new Color(imgLife.color.r, imgLife.color.g, imgLife.color.b, 1);
+            if(deadScreenGO != null)
+            {
+                deadScreenGO.SetActive(true);
+            }
         }
 
     }

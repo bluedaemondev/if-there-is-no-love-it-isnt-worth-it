@@ -28,9 +28,11 @@ public class PickupScript : MonoBehaviour
             .SetCamera(camSpawned.GetComponent<CinemachineVirtualCamera>());
 
         StartCoroutine(PrepairFallingObjects());
-        animator.SetTrigger("pickedUp");
-        playerCinematicaContainer.SetActive(true);
 
+        if (playerCinematicaContainer != null) // box collider para que no se me caiga para cualquier lado
+            playerCinematicaContainer.SetActive(true);
+
+        animator.SetTrigger("pickedUp");
 
 
         // importante que este abajo porque se cargan cosas de aca en el state enter
@@ -48,8 +50,10 @@ public class PickupScript : MonoBehaviour
 
         if (fallHandler != null)
             fallHandler.TriggerFall();
+        
+        yield return new WaitForSeconds(1.4f);
 
-        if (playerCinematicaContainer != null) // box collider para que no se me caiga para cualquier lado
+        if (playerCinematicaContainer != null)
             playerCinematicaContainer.SetActive(false);
 
         Destroy(this.gameObject);

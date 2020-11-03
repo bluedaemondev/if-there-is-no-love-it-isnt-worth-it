@@ -12,6 +12,8 @@ public class PickupScript : MonoBehaviour
     public GameObject camSpawned;
     public int playerLayer = 9;
 
+    public MakeFallOnAction fallHandler; // si tira piedras despues de recogerlo, tiene uno
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == playerLayer) // como dicen los que saben, 
@@ -25,7 +27,14 @@ public class PickupScript : MonoBehaviour
 
         animator.SetTrigger("pickedUp"); 
 
+
         // importante que este abajo porque se cargan cosas de aca en el state enter
+    }
+
+    private IEnumerator PrepairFallingObjects()
+    {
+        yield return new WaitForSeconds(4f);
+        fallHandler.TriggerFall();
     }
 
 }

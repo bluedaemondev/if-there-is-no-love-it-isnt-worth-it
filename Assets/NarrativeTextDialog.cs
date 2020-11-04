@@ -37,10 +37,10 @@ public class NarrativeTextDialog : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-        else if (!resetScene)
-        {
-            GameObject.FindGameObjectWithTag("NarrativePanel").SetActive(false);
-        }
+        //else if (!resetScene)
+        //{
+        //    GameObject.FindGameObjectWithTag("NarrativePanel").SetActive(false);
+        //}
 
     }
 }

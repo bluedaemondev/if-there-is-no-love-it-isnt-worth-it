@@ -6641,7 +6641,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.7337596, y: -2.2191637, z: 40.145775}
+  m_LocalPosition: {x: -3.7349715, y: -2.2191637, z: 40.145775}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607809203}
@@ -9496,7 +9496,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 3
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -21185,8 +21185,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 362154293
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -22099,7 +22099,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.31
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -32162,7 +32162,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1774121833}
-  - component: {fileID: 1774121832}
   - component: {fileID: 1774121834}
   m_Layer: 0
   m_Name: GameManager
@@ -32171,18 +32170,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1774121832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1774121831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a77f42f1c096e44c985d5a171bc1c55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1774121833
 Transform:
   m_ObjectHideFlags: 0
@@ -37859,7 +37846,7 @@ MonoBehaviour:
   - "Marchita hasta cesar su canto final. Cae hasta posarse en un sauce m\xE1s. "
   - 'La nube la olvida, y una gota de lluvia, la lavara. '
   currentIdx: 0
-  resetScene: 0
+  resetScene: 1
 --- !u!61 &1933640814 stripped
 BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 7967204149657910874, guid: 2ec7daa44a6458d4da6fa32eaffb3c9a, type: 3}
@@ -40453,7 +40440,7 @@ PrefabInstance:
       objectReference: {fileID: 271487409}
     - target: {fileID: 2664519472583199105, guid: 85edfbf8ed4bd5c4cb26cee1a6ad9aa6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.7337596
+      value: -3.7349715
       objectReference: {fileID: 0}
     - target: {fileID: 2664519472583199105, guid: 85edfbf8ed4bd5c4cb26cee1a6ad9aa6, type: 3}
       propertyPath: m_LocalPosition.y

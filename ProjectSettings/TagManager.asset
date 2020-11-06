@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NarrativeText
   - NarrativePanel
+  - Deadpool
   layers:
   - Default
   - TransparentFX

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
+/// <summary>
+/// ir viendo esto estaria bueno despues
+/// </summary>
 public class GlobalSceneIluminationManager : MonoBehaviour
 {
     [Header("Colores de iluminacion general")]

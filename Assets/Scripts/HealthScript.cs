@@ -47,6 +47,7 @@ public class HealthScript : MonoBehaviour
         if (currentLifeAlpha >= 100)
         {
             //dead
+            currentLifeAlpha = 100;
             imgLife.color = new Color(imgLife.color.r, imgLife.color.g, imgLife.color.b, 1);
             if(deadScreenGO != null)
             {
